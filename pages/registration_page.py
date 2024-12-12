@@ -1,17 +1,20 @@
 #Поле "Имя" на странице регистрации
-name_input_field = './/fieldset[1]//input'
+name_input_field = '//*[.="Имя"]/input'
 
 #Поле "Email" на странице регистрации
-email_input_field = './/fieldset[2]//input'
+email_input_field = '//*[.="Email"]/input'
 
 #Поле "Пароль" на странице регистрации
-password_input_field = './/fieldset[3]//input'
+password_input_field = './/input[@type="password"]'
 
 #Кнопка "Зарегистрироваться" на странице регистрации
 registration_button = './/button[text()="Зарегистрироваться"]'
 
 #Ошибка на экране регистрации при вводе некорректного пароля
-error_in_password_field = './/fieldset[3]//p'
+error_in_password_field = './/p[text()="Некорректный пароль"]'
+
+#Текст ошибки на экране регистрации при вводе некорректного пароля
+error_text_in_password_field = "Некорректный пароль"
 
 #Кнопка "Войти" на странице регистрации
-registration_sign_in_button = './/main//a[text()="Войти"]'
+registration_sign_in_button = './/a[text()="Войти"]'

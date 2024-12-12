@@ -1,5 +1,8 @@
 #Раздел "Профиль" в списке в личном кабинете
-profile_tab_account_page = './/main//li[1]'
+profile_tab_account_page = './/a[text()="Профиль"]'
 
 #Кнопка "Выход" в личном кабинете
-log_out_button_account_page = './/main//div[1]//li[3]//button[text()="Выход"]'
+log_out_button_account_page = './/button[text()="Выход"]'
+
+#Текст кнопки "Профиль" в личном кабинете
+profile_tab_account_page_text = 'Профиль'
